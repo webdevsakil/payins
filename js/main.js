@@ -243,3 +243,5 @@ closeBtn.addEventListener('click', function () {
     mobileMenu.classList.remove('toggle-mobile-menu');
     body.classList.remove('bg-gray');
 })
+
+new WOW().init();
