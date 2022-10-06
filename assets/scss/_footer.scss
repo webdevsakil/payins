@@ -1,0 +1,114 @@
+/** footer-area  **/
+.footer-area {
+    .footer-heading {
+        h2 {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 27px;
+            color: #ffffff;
+            margin-bottom: 20px;
+        }
+    }
+
+    .footer-nav {
+        ul {
+            li {
+                a {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 21px;
+                    color: #8c8c8c;
+                    text-decoration: none;
+                    text-transform: capitalize;
+                    display: block;
+                    margin-bottom: 10px;
+
+                    &:hover {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+
+    .subscribe-widgets-area {
+        .form-area {
+            position: relative;
+
+            form {
+                input {
+                    width: 100%;
+                    background: #343538;
+                    border: none;
+                    padding: 13px 24px;
+                    padding-left: 40px;
+                    color: #fff;
+                    border-radius: 8px;
+
+                    &::placeholder {
+                        font-size: 12px;
+                        line-height: 18px;
+                        color: #8C8C8C;
+                        text-transform: capitalize;
+
+                    }
+                }
+                .icon{
+                    position: absolute;
+                    left: 13px;
+                    top: 16px;
+                    color: rgba(255, 255, 255, 0.307);
+                }
+                .submit-btn{
+                    position: absolute;
+                    right: 10px;
+                    top: 8px;
+                    background:linear-gradient(#d6cbf6,#f8f5f2,#f8ae64);
+                    padding: 5px 20px;
+                    border-radius: 5px;
+                    border: none;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 21px;
+                    color: #333333;
+                    text-transform: capitalize;
+                    &:hover{
+                        opacity: 0.6;
+                    }
+                }
+            }
+        }
+    }
+
+    .social-list{
+        margin-top: 20px;
+        ul{
+            display: flex;
+            justify-content: end;
+            li{
+                a{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-decoration: none;
+                    height: 48px;
+                    width: 48px;
+                    border-radius: 100%;
+                    background: #343538;
+                    color: #fff;
+                    margin-left: 10px;
+                    &:hover{
+                        background: #f8ae64;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media all and (min-width:320px) and (max-width:992px) {
+    .footer-area .social-list ul {
+            display: flex;
+            justify-content: start;
+        }
+}
